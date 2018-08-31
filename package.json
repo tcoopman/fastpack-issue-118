@@ -1,0 +1,15 @@
+{
+  "name": "fastpack-issue",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fpack": "^0.5.4",
+    "url-loader": "^1.1.1"
+  }
+}
