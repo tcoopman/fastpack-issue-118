@@ -4,11 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "fpack:url": "fpack --preprocess='\\.png$:url-loader' --dev src/index.js",
+    "fpack:file": "fpack --preprocess='\\.png$:file-loader' --dev src/index.js",
+    "fpack:url:prod": "fpack --preprocess='\\.png$:url-loader' src/index.js",
+    "fpack:file:prod": "fpack --preprocess='\\.png$:file-loader' src/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "file-loader": "^2.0.0",
     "fpack": "^0.5.4",
     "loader-runner": "^2.3.0",
     "url-loader": "^1.1.1"
