@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "fpack": "^0.5.4",
+    "loader-runner": "^2.3.0",
     "url-loader": "^1.1.1"
   }
 }
